@@ -1,3 +1,6 @@
+![updateEmp](https://github.com/user-attachments/assets/5052b41e-c72f-40c8-855e-d5fcd015403f)
+![empHome](https://github.com/user-attachments/assets/5dcac293-1feb-4181-a01e-62ef20041ebc)
+![createEmp](https://github.com/user-attachments/assets/10dd2c8c-2cd8-4ac9-b8a0-28e7bf093eef)
 # Employee Management System
 
 This project is a simple **Employee Management System** built using **Spring Boot** and **Thymeleaf** for front-end rendering. The application implements basic **CRUD (Create, Read, Update, Delete)** operations to manage employee data, along with **input validation** to ensure proper and secure data entry.
