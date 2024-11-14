@@ -49,5 +49,3 @@ Before running the project, ensure that you have the following installed on your
 - Thanks to the Spring Boot community for building such an amazing framework.
 - Special thanks to Thymeleaf for making dynamic web pages easy to implement.
 - Thanks to the Java Bean Validation API for helping us ensure proper data validation.
-
-- 
