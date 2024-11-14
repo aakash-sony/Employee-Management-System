@@ -2,7 +2,7 @@
 
 This project is a simple **Employee Management System** built using **Spring Boot** and **Thymeleaf** for front-end rendering. The application implements basic **CRUD (Create, Read, Update, Delete)** operations to manage employee data, along with **input validation** to ensure proper and secure data entry.
 
-The project demonstrates how to integrate **Spring Boot**, **Spring Data JPA**, **Thymeleaf**, **H2 Database**, and **Java Bean Validation** (JSR 303/380) for input validation.
+The project demonstrates how to integrate **Spring Boot**, **Spring Data JPA**, **Thymeleaf**, **PostgreSQL**, and **Java Bean Validation** (JSR 303/380) for input validation.
 
 ---
 
@@ -22,7 +22,7 @@ The project demonstrates how to integrate **Spring Boot**, **Spring Data JPA**, 
 - **Spring Boot**: A Java-based framework for building production-grade web applications.
 - **Spring Data JPA**: Simplifies database operations by providing built-in CRUD functionality.
 - **Thymeleaf**: A modern server-side Java template engine for web and standalone environments.
-- **H2 Database**: An in-memory database used for testing and development.
+- **PostgreSql Database**: A database used for storing the record of employee.
 - **Spring MVC**: A framework for building web applications based on the Model-View-Controller design pattern.
 - **Bootstrap**: Front-end framework used for building responsive and mobile-first websites.
 - **Java Bean Validation**: Used to validate user input in forms.
