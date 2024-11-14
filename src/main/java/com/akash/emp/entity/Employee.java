@@ -22,13 +22,13 @@ public class Employee {
 	private Long id;
 
 	@NotBlank(message = "First name is mandatory!!")
-	@Size(min = 2, max = 25, message = "First name must be 2 to 25 characters!!")
+	@Size(min = 2, max = 25, message = "First name must be 2 to 25 characters !!")
 	private String firstName;
 
 	@Size(max = 20, message = "Last name must be 0 to 20 characters!!")
 	private String lastName;
 
-	@Email(regexp = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,}$", message = "Email should be valid!!")
+	@Email(regexp = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,}$", message = "Email should be valid !!")
 	private String emailId;
 
 	@Pattern(regexp = "^[6-9][0-9]{9}$", message = "Mobile number should be 10 digits and start with 6, 7, 8, or 9 !!")
