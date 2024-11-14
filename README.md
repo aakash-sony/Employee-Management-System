@@ -33,10 +33,9 @@ The project demonstrates how to integrate **Spring Boot**, **Spring Data JPA**, 
 
 Input validation is an essential part of ensuring that user data is consistent and secure. This application uses **Java Bean Validation** annotations to enforce validation rules on the employee form fields. The key validations applied are:
 
-- **Not Empty**: Ensures that fields such as `name`, `email`, and `department` are not left blank.
+- **Not Empty**: Ensures that fields such as `name`, `email`, and `mobileNumber` are not left blank and should be proper format.
 - **Email Format**: Validates the format of the email address entered by the user.
 - **Length Constraints**: Ensures that fields like `name` do not exceed a certain length.
-- **Custom Validation**: Additional validation can be added if needed (e.g., checking if an employee email is unique).
 
 ## Prerequisites
 Before running the project, ensure that you have the following installed on your system:
